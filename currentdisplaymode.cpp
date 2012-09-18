@@ -1,4 +1,3 @@
-
 // Using SDL2's SDL_GetCurrentDisplayMode()
 #include <SDL2/SDL.h>   
 #include <iostream>   
@@ -23,7 +22,9 @@ int main(int argc, char* argv[]){
     
     else 
       // On success, print the current display mode.
-      cout << "Display #" << i << ": current display mode is " << current.w << 'x' << current.h << "px @ " << current.refresh_rate << "hz. \n";
+      cout << "Display #" << i 
+        << ": current display mode is " << current.w << 'x' << current.h 
+        << "px @ " << current.refresh_rate << "hz. \n";
 
   }
  
