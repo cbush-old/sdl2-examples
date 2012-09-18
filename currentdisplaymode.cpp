@@ -1,4 +1,4 @@
-// Using SDL2's SDL_GetCurrentDisplayMode()
+// Using SDL_GetCurrentDisplayMode()
 #include <SDL2/SDL.h>   
 #include <iostream>   
 
